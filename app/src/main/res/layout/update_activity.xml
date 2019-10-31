@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/update_txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58sp"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/txtnama"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_txtUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/update_txtPass"
+        android:layout_below="@id/txtnama"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_txtPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtpass"
+        android:onClick="update"
+        />
+
+</RelativeLayout>

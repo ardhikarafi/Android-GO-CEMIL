@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Harga"
+        android:id="@+id/titletotal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58sp"
+        />
+
+    <EditText
+        android:id="@+id/etTotal"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titletotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titlepembayaran"
+        android:hint="Jumlah Pembayaran"
+        android:layout_below="@id/etTotal"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/etPembayaran"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlepembayaran"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:hint="" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titlekembalian"
+        android:text="Kembalian"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etPembayaran"
+        />
+
+    <EditText
+        android:id="@+id/etkembalian"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlekembalian"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+</RelativeLayout>
